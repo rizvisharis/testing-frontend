@@ -16,6 +16,6 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/views/create.html');
+    res.sendFile(__dirname + '/public/views/login.html');
   });
   
